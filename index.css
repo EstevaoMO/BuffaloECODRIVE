@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px; padding: 0px;
+}
+
+body {
+    background-color: #f9f9f9;
+    width: 100%; height: 100%;
+    background-color: #f9f9f9;
+}
+
+/* Classes-Modelo */
+.titulo {
+    font-family: Arial;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.container {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container#principal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px
+}
+
+.logo {
+    margin: 5px;
+    width: 60px;
+    aspect-ratio: 1;
+}
+
+.logotipo {
+    font-size: 18px;
+    font-family: Impact;
+    font-weight: 100;
+    font-style: normal;
+    color: #e9cd18;
+    text-decoration: underline 2px;
+}
+
+.banner {
+    background-color: #0e0e0e;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    margin-bottom: 45px;
+}
+.banner .container {
+    margin: 40px;
+    padding: 5%;
+    width: 80%;
+    height: 80%;
+    background-color: #1a1a1a;
+    border-radius: 1%;
+}
+
+.banner .titulo{
+    color: #f1f1f1;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.banner .marcador-texto {
+    background-color: #d4b907;
+    padding-left: 2px; padding-right: 2px;
+}
+
+.banner .separador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .8rem;
+    margin-left: 10px;
+    margin-top: 10px; margin-bottom: 15px;
+}
+
+.banner .linha {
+    width: 50%;
+    height: 5px;
+    background-color: #e9cd18;
+}
+
+.banner .bolinha {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background-color: #e9cd18;
+}
+
+.banner .texto {
+    color: #f1f1f1;
+    text-align: justify;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.container #destaques {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+}
+
+.container .destaque {
+    width: 50%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: solid .5px #e3e3e3;
+    padding: 5%;
+}
+
+.container .destaque .icone {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.container .destaque .titulo {
+    font-family: Arial;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+.container .destaque .descricao-destaque {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+}
