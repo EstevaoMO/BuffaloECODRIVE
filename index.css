@@ -18,7 +18,7 @@ body {
     text-align: center;
 }
 
-
+/*  */
 .container {
     margin: auto;
     align-items: center;
@@ -32,13 +32,16 @@ body {
     height: 100%;
 }
 
-.cabecalho {
+.cabecalho, .rodape {
     width: 100%;
-    height: 80px;
     background-color: #000;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.cabecalho {
+    height: 80px;
     gap: 10px
 }
 
@@ -54,7 +57,7 @@ body {
     font-weight: 600;
     font-style: normal;
     color: #e9cd18;
-    text-decoration: underline 2px;
+    text-decoration: underline 2px;   
 }
 
 .banner {
@@ -161,4 +164,28 @@ body {
     font-weight: 400;
     font-size: 1em;
     text-align: center;
+}
+
+.rodape {
+    color: #e9cd18;
+    height: 100px;
+    text-align: center;
+}
+
+.rodape .titulo {
+    font-family: Impact;
+    font-weight: 600;
+    font-style: normal;
+    color: #e9cd18;
+    margin-bottom: 10px;
+}
+
+.rodape .texto {
+    text-decoration: none;
+    color: #d4b907;
+}
+
+.rodape .texto:hover {
+    text-decoration: underline;
+    color: #d4b907;
 }
