@@ -47,12 +47,12 @@ body {
 
 .logo {
     margin: 5px;
-    width: 60px;
+    width: 80px;
     aspect-ratio: 1;
 }
 
 .logotipo {
-    font-size: 18px;
+    font-size: 1.2em;
     font-family: Impact;
     font-weight: 600;
     font-style: normal;
@@ -83,7 +83,7 @@ body {
 
 .banner .titulo{
     color: #f1f1f1;
-    font-size: 1.4em;
+    font-size: 1.5em;
     margin-bottom: 5px;
 }
 
@@ -116,6 +116,7 @@ body {
 .banner .texto {
     color: #f1f1f1;
     text-align: justify;
+    font-size: 1.2em;
     font-family: Roboto, sans-serif;
     font-weight: 300;
     margin-bottom: 5px;
@@ -149,20 +150,20 @@ body {
 }
 
 .container .destaque .icone {
-    width: 80px;
+    width: 90px;
     margin-bottom: 10px;
 }
 
 .container .destaque .titulo {
     font-family: Arial;
-    font-size: 1.3em;
-    margin-bottom: 5px;
+    font-size: 1.4em;
+    margin-bottom: 10px;
 }
 
 .container .destaque .descricao-destaque {
     font-family: Roboto, sans-serif;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
 }
 
