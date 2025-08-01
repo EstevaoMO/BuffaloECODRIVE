@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+/* Variávies */
+:root {
+    --fonte-minima: 14px;
+    --fonte-pequena:16px;
+    --fonte-media: 18px;
+    --fonte-grande: 20px;
+    --fonte-destaque: 30px;
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0px; padding: 0px;
@@ -52,7 +63,7 @@ body {
 }
 
 .logotipo {
-    font-size: 1.2em;
+    font-size: var(--fonte-grande);
     font-family: Impact;
     font-weight: 600;
     font-style: normal;
@@ -83,7 +94,7 @@ body {
 
 .banner .titulo{
     color: #f1f1f1;
-    font-size: 1.5em;
+    font-size: var(--fonte-destaque);
     margin-bottom: 5px;
 }
 
@@ -151,27 +162,31 @@ body {
 }
 
 .container .destaque .icone {
-    width: 90px;
+    width: 60px;
     margin-bottom: 10px;
 }
 
 .container .destaque .titulo {
     font-family: Arial;
-    font-size: 1.4em;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
 .container .destaque .descricao-destaque {
     font-family: Roboto, sans-serif;
     font-weight: 400;
-    font-size: 1.1em;
+    font-size: 14px;
     text-align: center;
 }
 
 .rodape {
     color: #e9cd18;
-    height: 100px;
+    height: 200px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    user-select: none;
 }
 
 .rodape .titulo {
