@@ -258,7 +258,7 @@ body {
 .bloco-form > input {
     font-size: var(--fonte-pequena);
     font-family: Roboto;
-    width: 100%;
+    min-width: 40%;
     padding: 5px;
 }
 
@@ -266,7 +266,7 @@ body {
     font-size: var(--fonte-pequena);
     font-family: Lato;
     font-weight: 900;
-    width: 40%;
+    min-width: 40%;
     margin: auto;
     background-color: #e9cd18;
     border: none;
@@ -305,4 +305,16 @@ body {
 .rodape .texto:hover {
     text-decoration: underline;
     color: #d4b907;
+}
+
+@media screen and (min-width: 720px) {
+    .container #destaques {
+        grid-template-columns: repeat(2, 1fr);
+    }   
+}
+
+@media screen and (min-width: 1200px) {
+    .container #destaques {
+        grid-template-columns: repeat(3, 1fr);
+    }   
 }
