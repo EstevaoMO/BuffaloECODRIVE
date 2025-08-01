@@ -217,6 +217,66 @@ body {
     text-decoration: underline;
 }
 
+.container .contato {
+    width: 100%;
+    height: max-content;
+    padding: 10%;
+    padding-top: 5%; padding-bottom: 5%;
+    background-color: rgb(78, 1, 78);
+}
+
+.container .contato .titulo {
+    font-family: Lato;
+    font-weight: 900;
+    color: #f9f9f9;
+    font-size: var(--fonte-destaque);
+    margin-bottom: 10px;
+}
+
+.container .formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    background-color: #1a1a1a;
+}
+
+.bloco-form {
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bloco-form > label {
+    font-family: Lato;
+    font-weight: 900;
+    color: #f9f9f9;
+    font-size: var(--fonte-pequena);
+}
+
+.bloco-form > input {
+    font-size: var(--fonte-pequena);
+    font-family: Roboto;
+    width: 100%;
+    padding: 5px;
+}
+
+.btn-form {
+    font-size: var(--fonte-pequena);
+    font-family: Lato;
+    font-weight: 900;
+    width: 40%;
+    margin: auto;
+    background-color: #e9cd18;
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.btn-form:hover {
+    background-color: #d4b907;
+}
 
 .rodape {
     color: #e9cd18;
